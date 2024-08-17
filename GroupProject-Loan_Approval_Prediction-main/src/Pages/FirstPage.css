@@ -1,0 +1,23 @@
+.background {
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+}
+.custom-placeholder option:disabled {
+  color: #9CA3AF; /* Tailwind color for gray-400 */
+}
+input[type="number"], select {
+  text-align: left; /* Align text to the left */
+}
+input[type="number"], select, button {
+  text-align: left; /* Align text to the left */
+}
+
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
